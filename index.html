@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=inp, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,900;1,500&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="contact-page">
+        <h1>Contact US</h1>
+
+        <div class="form">
+
+            <form action="/user-data" method="GET">
+                <h2>How can we help you?</h2>
+                <section>
+                    <div id="name">
+                        <label for="username">Your Name</label>
+                        <input type="text" name="user-name" id="username" placeholder="name">
+                    </div>
+
+                    <div id="mail">
+                        <label for="useremail"> Your E-Mail Address</label>
+                        <input type="email" name="user-email" id="useremail" placeholder="Email Adresinizi Giriniz">
+                    </div>
+
+                    <div id="phone">
+                        <label for="userphone"> Your Phone Number</label>
+                        <input type="number" name="user-phone-number" placeholder="XXXXXXXXXXX" id="userphone" required
+                            max="11">
+                    </div>
+
+                    <div id="message">
+                        <label for="usermessage">Your Message</label>
+                        <textarea name="user-message" id="usermessage" rows="5"></textarea>
+                    </div>
+                </section>
+
+                <div >
+                    <label for="userwebsearch"> How did you find us?</label>
+                    <select name="user-web-search" id="userwebsearch">
+                        <option value="web Search">web Search</option>
+                        <option value="suggestion">suggestion</option>
+                        <option value="advert">advert</option>
+                    </select>
+                </div>
+
+                <section>
+                    <h2>How should we reply?</h2>
+                    <div class="form-control">
+                        <input type="radio" id="call">
+                        <label for="call">Call me</label>
+                    </div>
+                    <div class="form-control">
+                        <input type="radio" id="email">
+                        <label for="email">Send me an email</label>
+                    </div>
+                    <div class="form-control">
+                        <input type="radio" id="dont-reply">
+                        <label for="dontreply">Don!t reply</label>
+                    </div>
+                </section>
+
+                <section id="checkbox"> <input type="checkbox" id="Accept">
+                    <label for="Accept">Accept Terms</label>
+                </section>
+                <section class="buttons">
+                    <button type="reset" id="reset"> Clear</button>
+                    <button id="submit">Submit</button>
+                </section>
+            </form>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

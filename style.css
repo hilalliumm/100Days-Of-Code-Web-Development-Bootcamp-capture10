@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(236, 252, 253);
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-page {
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+.form {
+    color: rgb(12, 12, 66);
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgb(246, 250, 255);
+    width: 100%;
+    padding: 1rem;
+
+}
+
+div {
+    padding-top: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(2, 2, 46);
+}
+
+input {
+    display: block;
+    width: 100%;
+    border: 1px solid rgb(152, 159, 184);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+
+textarea {
+    display: block;
+    width: 100%;
+    resize: none;
+    border: 1px solid rgb(152, 159, 184);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+select {
+    display: block;
+    border: 1px solid rgb(152, 159, 184);
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 0.5rem;
+}
+
+#userwebsearch {
+    width: 100%;
+    
+}
+
+.form-control {
+    display: flex;
+    margin: 0;
+}
+
+.form-control input {
+    width: auto;
+}
+
+#checkbox {
+    display: flex;
+    margin-top: 0.7rem;
+}
+
+#checkbox input {
+    width: auto;
+}
+
+.buttons {
+    text-align: end;
+}
+
+#submit:hover {
+    background-color: rgb(57, 57, 243);
+}
